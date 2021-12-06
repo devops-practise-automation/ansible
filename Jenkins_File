@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('git clone') {
             steps {
-              git branch: 'main', url: "https://github.com/ramesh-DevOps/ansible.git"  
+              git branch: 'main', url: "https://github.com/devops-practise-automation/ansible.git"  
               sh "ls -ll"
             }
         }
